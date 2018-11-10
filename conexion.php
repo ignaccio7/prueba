@@ -2,11 +2,11 @@
 
 	function conectarDB()
 	{
-		$host = "host=localhost";
+		$host = "host=ec2-54-243-46-32.compute-1.amazonaws.com";
 		$port = "port=5432";
-		$dbname = "dbname=prueba";
-		$user = "user=postgres";
-		$password = "password=260298nesig";
+		$dbname = "dbname=d9m9mghvfsb9nr";
+		$user = "user=wrqtoyohxvthri";
+		$password = "password=67b693606c2166a674b6491bc7cdf1f4601e3b26ab71ecfb8cf87f6f76b1e2df";
 
 		$bd = pg_connect("$host $port $dbname $user $password");
 
